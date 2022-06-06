@@ -7,7 +7,6 @@ packages = [ {include = "mock_git"}]
 
 [tool.poetry.dependencies]
 python = "~3.10"
-requests = "*"
 pytest = {version = "^6.2.4", optional = true}
 
 [tool.poetry.extras]
